@@ -9,4 +9,7 @@ describe('RandomNumber', () => {
   it('2 + 2 debe devolver 4', () => {
     expect(addNumber(2, 2)).to.be.equal(4);
   });
+  it('4 + 6 debe devolver 10', () => {
+    expect(addNumber(4, 6)).to.be.equal(10);
+  });
 });
