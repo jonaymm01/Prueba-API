@@ -46,4 +46,14 @@ export abstract class MapAndReduce {
    *
    */
   protected abstract reduceArray(array: number[]): number;
+
+  /**
+   * Función opcional para rotar el array
+   */
+  protected rotateArray() {};
+
+  /**
+   * Función opcional para duplicar el array
+   */
+  protected duplicateArray() {};
 }
