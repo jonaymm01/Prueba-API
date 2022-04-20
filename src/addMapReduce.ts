@@ -19,7 +19,6 @@ export class AddMapReduce extends MapAndReduce {
    */
   protected funcion(a: number, n: number): number {
     return a + n;
-    console.log('METODO ALCANZADO');
   }
 
   /**
