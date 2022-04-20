@@ -13,10 +13,4 @@ describe('AddReduce', () => {
   it('Debe existir una clase plantilla para sumar', () => {
     expect(AddMapReduce).to.exist;
   });
-  it('Funciona correctamente el algoritmo', () => {
-    const array: number[] = [1, 2, 3];
-    const algoritmo = new AddMapReduce(array);
-    const s: number = algoritmo.run(3);
-    expect(s).to.be.equal(12);
-  });
 });
