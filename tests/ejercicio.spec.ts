@@ -16,7 +16,7 @@ describe('SubReduce', () => {
   it('Funciona correctamente el algoritmo', () => {
     const array: number[] = [3, 3, 3];
     const algoritmo = new SubMapReduce(array);
-    const s: number = algoritmo.run(9);
-    expect(s).to.be.equal(0);
+    const s: number = algoritmo.run(3);
+    expect(s).to.be.equal(9);
   });
 });
