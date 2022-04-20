@@ -19,6 +19,7 @@ export class AddMapReduce extends MapAndReduce {
    */
   protected funcion(a: number, n: number): number {
     return a + n;
+    console.log('METODO ALCANZADO');
   }
 
   /**
@@ -28,7 +29,7 @@ export class AddMapReduce extends MapAndReduce {
    */
   protected reduceArray(array: number[]): number {
     let solucion: number = 0;
-    this.array.forEach((a) => {
+    array.forEach((a) => {
       solucion += a;
     });
     return solucion;
