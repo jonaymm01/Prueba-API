@@ -1,11 +1,7 @@
 import 'mocha';
 import {expect} from 'chai';
 import {MapAndReduce} from '../src/mapAndReduce';
-import {AddMapReduce} from '../src/addMapReduce';
 import {SubMapReduce} from '../src/subMapReduce';
-import {ProdMapReduce} from '../src/prodMapReduce';
-import {DivMapReduce} from '../src/divMapReduce';
-
 
 describe('MapAndReduce', () => {
   it('Debe existir una clase plantilla para un algoritmo MapAndReduce', () => {
