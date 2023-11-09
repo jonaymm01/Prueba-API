@@ -1,5 +1,5 @@
-## *Jonay Méndez Márquez*
-# **Prueba de coverage con SonarCloud y estructura básica de calculadora con TypeScript**
+# *Jonay Méndez Márquez*
+### **Prueba de coverage con SonarCloud y estructura básica de calculadora con TypeScript**
 
 [![Coverage Status](https://coveralls.io/repos/github/alu0101347141/ejercicio9-DSI/badge.svg?branch=main)](https://coveralls.io/github/alu0101347141/ejercicio9-DSI?branch=main)
 
